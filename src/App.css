@@ -22,8 +22,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
 
+}
+.sticky{
+
+}
+.button--rounded{
+  margin-left: 10px;
+  
+  border: 1px solid var(--fore-color);
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +43,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+header {
+  height: 5.1875rem;
+}
+
+a.button.active {
+
 }
